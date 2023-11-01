@@ -24,8 +24,8 @@ body{
 }
 .image{
     text-align:center;
+    border-radius:50%;
+    
 }
 
-#profile-picture{
-    border-radius:50%;
-}
+

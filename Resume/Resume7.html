@@ -71,7 +71,26 @@
         <h2 id="Contact">Contact Details</h2>
         <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
         </section>
-   </footer>  
+        <form action="https://formsubmit.co/vanwyktarique80@gmail.com" method="POST"></form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a Subject</option>
+           <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+        </select><br><br> <!-- Subject field with predefined options -->
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</footer>  
    </section>
 
   </body>
