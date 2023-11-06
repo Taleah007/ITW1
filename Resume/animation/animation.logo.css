@@ -1,7 +1,7 @@
  /* The animation code */
 @keyframes animatedSquare {
-  0%   {border-radius: 0%;}
-  25%  {border-radius: 100%;}
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
   50%  {background-color: blue;}
   100% {background-color: green;}
 }
@@ -15,3 +15,20 @@ div {
   animation-duration: 4s;
   animation-iteration-count: infinite;    
 } 
+
+.logo:hover {
+  animation-play-state: paused; 
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(2deg);
+  }
+  100% {
+      transform: rotate(350deg);
+  }
+}
+
+.logo:hover {
+animation-play-state: paused; 
+}
