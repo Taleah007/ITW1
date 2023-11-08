@@ -1,6 +1,6 @@
 header{
     background-color:#c2dfe3;
-    color:white;
+    color:black;
     text-align:center;
 }
 
@@ -14,9 +14,9 @@ body{
 }
 
 .lists{
-   border:1px solid 
+   border:px solid 
    padding:10px;
-   border:3px solid black;
+   border:1px solid black;
 }
 
 .section{
@@ -37,10 +37,9 @@ body{
 }
 
 .test{
-    background-color: #c2dfe3;
+    background-color: #ced4da;
     padding: 20px;
-    margin: 10px;
-    
+    margin: px;
 }
 
 .intro{
@@ -50,33 +49,33 @@ body{
 }
   
 .paragraphs{
-    background-color: #61a5c2;
+    background-color: #8d99ae;
 }
 
 .contact{
-    background-color: #1b4965;
+    background-color: #adb5bd;
     padding:10px;
-    margin: 10px;
     color:white;
 }
 
 body{
-    background-color: #c2dfe3;
+    background-color: #white;
     border: 3px solid black;
 }
 
 header {
-    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your background image URL */
+    background-image: url('https://images.pexels.com/photos/2824173/pexels-photo-2824173.jpeg'); /* Replace with your background image URL */
     background-color: #f0f0f0; 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
     height: 80vh; 
-    color: #fff; 
+    color: black; 
     text-align: center; 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .profile-image {
